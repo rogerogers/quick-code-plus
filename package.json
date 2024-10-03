@@ -1,0 +1,28 @@
+{
+  "name": "quick-code-plus",
+  "displayName": "Quick Code Plus",
+  "description": "",
+  "author": "rogerogers",
+  "publisher": "rogerogers",
+  "icon": "media/icon.jpeg",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Snippets",
+    "Keymaps"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "go",
+        "path": "./snippets/go.json"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/python.json"
+      }
+    ]
+  }
+}
