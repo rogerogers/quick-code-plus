@@ -1,0 +1,47 @@
+{
+  "hertz.body": {
+    "prefix": "hb",
+    "body": ["[(hertz.body) = \"$0\"];"],
+    "description": "hertz.body"
+  },
+  "hertz.query": {
+    "prefix": "hq",
+    "body": ["[(hertz.query) = \"$0\"];"],
+    "description": "hertz.query"
+  },
+  "hertz.form": {
+    "prefix": "hf",
+    "body": ["[(hertz.form) = \"$0\"];"],
+    "description": "hertz.form"
+  },
+  "hertz.path": {
+    "prefix": "hp",
+    "body": ["[(hertz.path) = \"$0\"];"],
+    "description": "hertz.path"
+  },
+  "hertz.get": {
+    "prefix": "hg",
+    "body": ["option (hertz.get) = \"$0\";"],
+    "description": "hertz.get"
+  },
+  "hertz.post": {
+    "prefix": "hp",
+    "body": ["option (hertz.post) = \"$0\";"],
+    "description": "hertz.post"
+  },
+  "hertz.put": {
+    "prefix": "hput",
+    "body": ["option (hertz.put) = \"$0\";"],
+    "description": "hertz.put"
+  },
+  "hertz.patch": {
+    "prefix": "hpa",
+    "body": ["option (hertz.patch) = \"$0\";"],
+    "description": "hertz.patch"
+  },
+  "hertz.delete": {
+    "prefix": "hd",
+    "body": ["option (hertz.delete) = \"$0\";"],
+    "description": "hertz.delete"
+  }
+}

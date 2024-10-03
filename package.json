@@ -22,6 +22,10 @@
       {
         "language": "python",
         "path": "./snippets/python.json"
+      },
+      {
+        "language": "proto3",
+        "path": "./snippets/proto3.json"
       }
     ]
   }
