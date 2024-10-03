@@ -25,7 +25,7 @@
     "description": "hertz.get"
   },
   "hertz.post": {
-    "prefix": "hp",
+    "prefix": "hpo",
     "body": ["option (hertz.post) = \"$0\";"],
     "description": "hertz.post"
   },
