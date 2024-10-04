@@ -1,6 +1,6 @@
-# snippet-common README
+# Quick Code Plus README
 
-This is the README for your extension "snippet-common". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "quick-code-plus". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
@@ -11,6 +11,20 @@ For example if there is an image subfolder under your extension project workspac
 \!\[feature X\]\(images/feature-x.png\)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+
+### Code Snippets
+
+| prefix | body                          |
+| ------ | ----------------------------- |
+| hb     | `[(hertz.body) = ""];`        |
+| hq     | `[(hertz.query) = ""];`       |
+| hf     | `[(hertz.form) = ""];`        |
+| hp     | `[(hertz.path) = ""];`        |
+| hg     | `option (hertz.get) = "";`    |
+| hpo    | `option (hertz.post) = "";`   |
+| hput   | `option (hertz.put) = "";`    |
+| hpa    | `option (hertz.patch) = "";`  |
+| hd     | `option (hertz.delete) = "";` |
 
 ## Requirements
 
@@ -24,8 +38,8 @@ For example:
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- `myExtension.enable`: Enable/disable this extension.
+- `myExtension.thing`: Set to `blah` to do something.
 
 ## Known Issues
 
@@ -39,27 +53,16 @@ Users appreciate release notes as you update your extension.
 
 Initial release of ...
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
 ---
 
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 
 **Enjoy!**
