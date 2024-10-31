@@ -3,5 +3,10 @@
     "prefix": "main",
     "body": ["package main", "", "func main() {", "\t$0", "}"],
     "description": "main function"
+  },
+  "init": {
+    "prefix": "init",
+    "body": ["func init() {", "\t$0", "}"],
+    "description": "init function"
   }
 }
